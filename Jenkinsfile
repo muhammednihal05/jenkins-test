@@ -15,4 +15,7 @@ pipeline {
       steps {
         echo 'Deploy Stage passed'
         sh '$(date)'
+      }
+    }
   }
+}
