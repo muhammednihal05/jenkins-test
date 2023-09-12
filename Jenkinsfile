@@ -14,7 +14,7 @@ pipeline {
     stage('Deploy') {
       steps {
         echo 'Deploy Stage passed'
-        sh '$(date)'
+        sh 'date'
       }
     }
   }
